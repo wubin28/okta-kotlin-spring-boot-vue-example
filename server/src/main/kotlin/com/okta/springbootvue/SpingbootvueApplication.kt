@@ -48,4 +48,6 @@ class SpringBootVueApplication {
             SpringApplication.run(SpringBootVueApplication::class.java, *args)
         }
     }
+
+
 }

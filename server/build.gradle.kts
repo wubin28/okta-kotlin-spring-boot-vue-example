@@ -23,6 +23,7 @@ repositories {
 }
 
 dependencies {
+	implementation("com.okta.spring:okta-spring-boot-starter:1.4.0")
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-data-rest")
 	implementation("org.springframework.boot:spring-boot-starter-web")

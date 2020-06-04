@@ -5,10 +5,10 @@ import javax.persistence.GeneratedValue
 import javax.persistence.Id
 
 @Entity
-class Todo(val title: String, val completed: Boolean) {
+class Todo(var title: String, var completed: Boolean) {
     @Id
     @GeneratedValue
-    val id: Long? = null
+    var id: Long? = null
     override fun toString() : String {
         return "Title='$title', Completed=$completed";
     }

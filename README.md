@@ -23,7 +23,7 @@ Please read [Use Kotlin, Spring Boot, and Vue.js to Build a Simple CRUD App]() t
 To install this example application, run the following commands:
 
 ```bash
-git clone https://github.com/oktadeveloper/okta-kotlin-spring-boot-vue-example.git
+git clone -b auth https://github.com/oktadeveloper/okta-kotlin-spring-boot-vue-example.git
 cd okta-kotlin-spring-boot-vue-example
 ```
 

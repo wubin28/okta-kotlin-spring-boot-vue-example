@@ -17,7 +17,7 @@ class SpringBootVueApplication {
     // Bootstrap some test data into the in-memory database
     @Bean
     fun init(repository: TodoRepository): ApplicationRunner {
-        return ApplicationRunner { args: ApplicationArguments? ->
+        return ApplicationRunner { _: ApplicationArguments? ->
             arrayOf("Buy milk", "Eat pizza", "Write tutorial", "Study Vue.js", "Go kayaking").forEach {
                 val todo = Todo(it, false)
                 repository.save(todo)

@@ -27,6 +27,7 @@ export default {
   createNew(text, completed) {
     return this.execute('POST', 'todos', {title: text, completed: completed})
   },
+
   // (R)ead
   getAll() {
     return this.execute('GET', 'todos', null, {
@@ -35,6 +36,7 @@ export default {
       }]
     })
   },
+
   // (U)pdate
   updateForId(id, text, completed) {
     return this.execute('PUT', 'todos/' + id, {title: text, completed: completed})

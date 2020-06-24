@@ -68,9 +68,7 @@ Copy the `issuer` and `clientId` into `client/src/router.js`.
 Vue.use(Auth, {
    issuer: 'https://$YOUR_OKTA_DOMAIN/oauth2/default',
    clientId: '$YOUR_CLIENT_ID',
-   redirectUri: window.location.origin + '/callback',
-   scopes: ['openid', 'profile', 'email'],
-   pkce: true
+   redirectUri: window.location.origin + '/callback'
 });
 ```
 

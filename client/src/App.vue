@@ -21,7 +21,7 @@
       }
     },
 
-    async created () {
+    async created() {
       await this.refreshActiveUser()
     },
 
@@ -30,12 +30,12 @@
     },
 
     methods: {
-      async refreshActiveUser () {
+      async refreshActiveUser() {
         this.activeUser = await this.$auth.getUser()
-        this.$log.debug('activeUser',this.activeUser)
+        this.$log.debug('activeUser', this.activeUser)
       },
 
-      async handleLogout () {
+      async handleLogout() {
         await this.$auth.logout()
         await this.refreshActiveUser()
         this.$router.go('/')
@@ -48,5 +48,7 @@
 </script>
 
 <style>
-  [v-cloak] { display: none; }
+  [v-cloak] {
+    display: none;
+  }
 </style>

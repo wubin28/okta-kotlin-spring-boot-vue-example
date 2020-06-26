@@ -1,8 +1,6 @@
 # A CRUD Example App with Vue, Spring Boot, and Kotlin
  
-This example app shows how to build a basic CRUD app with Spring Boot Kotlin, Spring Data, and Vue.js. 
-<!--
-Please read [Use Kotlin, Spring Boot, and Vue.js to Build a Simple CRUD App]() to see how this app was created. -->
+This example app shows how to build a basic CRUD app with Spring Boot Kotlin, Spring Data, and Vue.js. Please read [Build a CRUD App with Vue.js, Spring Boot, and Kotlin](https://developer.okta.com/blog/2020/06/26/spring-boot-vue-kotlin) to see how this app was created.
 
 **Prerequisites:** 
 
@@ -89,7 +87,7 @@ This example uses the following open source libraries from Okta:
 
 ## Help
 
-Please post any questions as comments on the [blog post](), or visit our [Okta Developer Forums](https://devforum.okta.com/).
+Please post any questions as comments on the [blog post](https://developer.okta.com/blog/2020/06/26/spring-boot-vue-kotlin), or visit our [Okta Developer Forums](https://devforum.okta.com/).
 
 ## License
 

@@ -1,1 +1,1 @@
-rootProject.name = "spingbootvue"
+rootProject.name = "springbootvue"

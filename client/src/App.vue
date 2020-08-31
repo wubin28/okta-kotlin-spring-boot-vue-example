@@ -38,7 +38,7 @@
       async handleLogout() {
         await this.$auth.logout()
         await this.refreshActiveUser()
-        this.$router.go('/')
+        this.$router.push({ path: '/' })
       }
     },
   }

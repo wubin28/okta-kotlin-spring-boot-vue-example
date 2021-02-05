@@ -7,7 +7,9 @@ This example app shows how to build a basic CRUD app with Spring Boot Kotlin, Sp
 * [Node 12](https://nodejs.org/)+
 * [Yarn](https://classic.yarnpkg.com/en/docs/install)
 * [Java 11](https://adoptopenjdk.net/)+
-* An [Okta Developer Account](https://developer.okta.com/signup/)
+* An [Okta Developer Account if you haven't one](https://developer.okta.com/signup/)
+* An [Okta Developer Account if you have one](https://okta-devok12.okta.com/signin/)
+
 
 > [Okta](https://developer.okta.com/) has Authentication and User Management APIs that reduce development time with instant-on, scalable user infrastructure. Okta's intuitive API and expert support make it easy for developers to authenticate, manage and secure users and roles in any application.
 

@@ -6,6 +6,8 @@ This example app shows how to build a basic CRUD app with Spring Boot Kotlin, Sp
 
 * [Node 12](https://nodejs.org/)+
 * [Yarn](https://classic.yarnpkg.com/en/docs/install)
+  * [Yarn upgrade on Ubuntu](https://stackoverflow.com/questions/49689174/how-to-upgrade-yarn-version-using-terminal)
+    * curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
 * [Java 11](https://adoptopenjdk.net/)+
 * An [Okta Developer Account if you haven't one](https://developer.okta.com/signup/)
 * An [Okta Developer Account if you have one](https://okta-devok12.okta.com/signin/)
